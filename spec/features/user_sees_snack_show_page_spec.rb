@@ -1,18 +1,5 @@
 require 'rails_helper'
 include ActionView::Helpers::NumberHelper
-
-# As a visitor
-# When I visit a snack show page
-# I see the name of that snack
-#   and I see the price for that snack
-#   and I see a list of locations with vending machines that carry that snack
-#   and I see the average price for snacks in those vending machines
-#   and I see a count of the different kinds of items in that vending machine.
-# Flaming Hot Cheetos
-# Price: $2.50
-# Locations
-# * Don's Mixed Drinks (3 kinds of snacks, average price of $2.50)
-# * Turing Basement (2 kinds of snacks, average price of $3.00)
   
 describe 'As a visitor to the site' do
   describe 'when I visit the snack show page' do
