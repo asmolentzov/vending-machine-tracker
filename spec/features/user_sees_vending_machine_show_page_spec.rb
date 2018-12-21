@@ -1,9 +1,5 @@
 require 'rails_helper'
 
-# As a visitor
-# When I visit a vending machine show page
-# I also see an average price for all of the snacks in that machine
-
 describe 'As a visitor to the app' do
   describe 'when I visit the vending machine show page' do
     it 'should show all the snacks in the machine' do
