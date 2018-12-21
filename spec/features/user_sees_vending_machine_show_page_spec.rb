@@ -30,7 +30,7 @@ describe 'As a visitor to the app' do
       
       visit machine_path(machine)
       
-      expect(page).to have_content("Average Price: #{machine.snacks.average_price}")
+      expect(page).to have_content("Average Price: #{number_to_currency(machine.snacks.average_price)}")
     end
   end
 end
